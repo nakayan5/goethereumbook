@@ -1,19 +1,18 @@
-package main
+// package main
 
-import (
-	"fmt"
-	"log"
+// import (
+// 	"fmt"
+// 	"log"
 
-	"github.com/ethereum/go-ethereum/ethclient"
-)
+// 	"github.com/ethereum/go-ethereum/ethclient"
+// )
 
-func main() {
-	client, err := ethclient.Dial("https://mainnet.infura.io")
+// func main() {
+// 	client, err := ethclient.Dial("https://mainnet.infura.io")
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
 
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	fmt.Print("we have a connection")
-	_ = client // we'll use this in the upcoming sections
-}
+// 	fmt.Println("we have a connection")
+// 	_ = client // we'll use this in the upcoming sections
+// }
